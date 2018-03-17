@@ -12,8 +12,11 @@ package estruturapilha;
 public class Principal {
     public static void main(String[] args) {
         EstruturaPilha pilha = new EstruturaPilha();
-        pilha.push(100);
-        
+        pilha.push(0);
+         pilha.isFull(0);
+         
         System.out.println(pilha.size());
+        System.out.println(pilha.isFull());
+       
     }
 }
